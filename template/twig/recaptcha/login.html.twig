@@ -1,0 +1,13 @@
+<style type="text/css" media="screen">
+    #login {
+        width: {{ width|raw }}px !important;
+    }
+
+    .login-action-login #loginform .recaptcha,
+    .login-action-lostpassword #lostpasswordform .recaptcha,
+    .login-action-register #registerform .recaptcha {
+        margin-bottom: 10px;
+    }
+</style>
+
+{{ do_action('render_recaptcha_html'|generate_hook) }}

@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Security\n"
+"POT-Creation-Date: 2021-04-29 12:56+0430\n"
+"PO-Revision-Date: 2021-04-29 12:57+0430\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Security/Recaptcha/Asset.php:38
+msgid "for load Google reCAPTCHA fill the form inputs."
+msgstr "برای بارگذاری ریکپچا گوگل فیلد‌های فرم را پر کنید."
+
+#: src/Pmpr/Security/Recaptcha/Asset.php:38
+msgid "Please pass Google reCAPTCHA test."
+msgstr "لطفا آزمایش ری‌کپچا گوگل را انجام دهید."
+
+#: src/Pmpr/Security/Recaptcha/Asset.php:39
+msgid "Please wait until Google reCAPTCHA is loaded."
+msgstr "لطفا تا زمان بارگذاری ری‌کپچا گوگل صبر کنید."
+
+#: src/Pmpr/Security/Recaptcha/Asset.php:40
+msgid ""
+"Failed to load Google reCAPTCHA. Please check your internet connection and "
+"reload this page."
+msgstr ""
+"موفق به اجرای ری‌کپچا گوگل نشدیم، لطفا ارتباط اینترنت خود را بررسی کرده و "
+"صفحه را مجدد بارگیری کنید."
+
+#: src/Pmpr/Security/Recaptcha/Asset.php:42
+msgid "Warning"
+msgstr "اخطار"
+
+#: src/Pmpr/Security/Recaptcha/Common.php:126
+msgid "User response is missing."
+msgstr "پاسخ کاربر به آزمایش یافت نشد."
+
+#: src/Pmpr/Security/Recaptcha/Common.php:128
+msgid "Secret Key is missing."
+msgstr "کلید خصوصی یافت نشد."
+
+#: src/Pmpr/Security/Recaptcha/Common.php:131
+msgid "Secret Key is invalid."
+msgstr "کلید خصوصی معتبر نیست."
+
+#: src/Pmpr/Security/Recaptcha/Common.php:134
+msgid "Check your domain configurations"
+msgstr "اطلاعات دامنه خود را بررسی کنید"
+
+#: src/Pmpr/Security/Recaptcha/Common.php:135
+msgid "and enter it again"
+msgstr "و دوباره آن را وارد کنید"
+
+#: src/Pmpr/Security/Recaptcha/Common.php:137
+msgid "User response is invalid"
+msgstr "پاسخ کاربر معتبر نیست"
+
+#: src/Pmpr/Security/Recaptcha/Common.php:138
+msgid "You have entered an incorrect reCAPTCHA value."
+msgstr "مقدار خروجی آزمایش صحیح نیست."
+
+#: src/Pmpr/Security/Recaptcha/Common.php:139
+msgid ""
+"More than one reCAPTCHA has been found in the current form. Please remove "
+"all unnecessary reCAPTCHA fields to make it work properly."
+msgstr ""
+"بیشتر از یک آزمایش در فرم جاری یافت شد. لطفا آزمایش‌های اضافی را حذف کنید."
+
+#: src/Pmpr/Security/Recaptcha/Common.php:141
+msgid "reCaptcha v3 test failed"
+msgstr "آزمایش شکست خورد"
+
+#: src/Pmpr/Security/Recaptcha/Common.php:151
+#: src/Pmpr/Security/Recaptcha/Setting.php:59
+msgid "Recaptcha"
+msgstr "ری‌کپچا"
+
+#: src/Pmpr/Security/Recaptcha/Recaptcha.php:148
+msgid "Error"
+msgstr "خطا"
+
+#: src/Pmpr/Security/Recaptcha/Recaptcha.php:149
+msgid "Click the BACK button on your browser and try again."
+msgstr "لطفا کلید برگشت مرورگر خود را بزنید و دوباره امتحان کنید."
+
+#: src/Pmpr/Security/Recaptcha/Recaptcha.php:207
+msgid "Authentication failed."
+msgstr "احراز هویت شکست خورد."
+
+#: src/Pmpr/Security/Recaptcha/Recaptcha.php:358
+msgid "reCaptcha"
+msgstr "ری‌کپچا"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:63
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:67
+msgid "Enable reCAPTCHA"
+msgstr "فعال سازی ری‌کپچا"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:81
+msgid "Site Key"
+msgstr "کلید عمومی"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:83
+#, php-format
+msgid "You can generate keys from %s."
+msgstr "شما می‌توانید کلید‌ها را از %s بسازید."
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:87
+msgid "here"
+msgstr "اینجا"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:92
+msgid "Secret Key"
+msgstr "کلید خصوصی"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:97
+msgid "reCaptcha Version"
+msgstr "نسخه ری‌کپچا"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:103
+msgid "Enable reCaptcha For"
+msgstr "فعال سازی ری‌کپچا برای"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:109
+msgid "Disable reCaptcha For"
+msgstr "غیر فعال کردن ری‌کپچا برای"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:115
+msgid "Hide reCaptcha Badge"
+msgstr "پنهان کردن نشان ری‌کپچا"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:116
+msgid "Enable to hide reCaptcha Badge for Version 3 and Invisible reCaptcha."
+msgstr "بری مخفی کردن نشان ری‌کپچا از گزینه را فعال کنید."
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:121
+msgid "Use reCaptcha Globally"
+msgstr "به استفاده به صورت جهانی"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:122
+msgid ""
+"Enable to use reCaptcha when Google is not accessible or blocked in your "
+"country."
+msgstr "اگر مشکلی با اتصال به گوگل در کشور خود دارید، این گزینه را فعال کنید."
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:127
+msgid "Disabled Submit Button"
+msgstr "غیر فعال کردن دکمه تایید"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:128
+msgid ""
+"Enable to keep submit button disabled until user passes the reCaptcha test "
+"(for Version 2)."
+msgstr ""
+"غیر فعال کردن دکمه تایید فرم، تا زمانی که کابر آزمایش ری‌کپچا را انجام دهد "
+"(برای نسخه ۲)."
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:134
+msgid "Whitelist"
+msgstr "لیست سفید"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:136
+msgid "Whitelist items"
+msgstr "آیتم‌های لیست سفید"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:140
+msgid "IP Address"
+msgstr "آدرس آی پی"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:141
+#, php-format
+msgid "Allowed format %s"
+msgstr "فرمت مجاز %s"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:147
+msgid "Whitelist Notification"
+msgstr "اعلان بودن در لیست سفید"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:148
+msgid "Something like:"
+msgstr "چیزی شبیه به:"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:148
+msgid "You are in the whitelist."
+msgstr "شما در لیست سفید قرار دارید."
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:162
+msgid "Version 2"
+msgstr "نسخه ۲"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:163
+msgid "Version 3"
+msgstr "نسخه ۳"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:164
+msgid "Invisible"
+msgstr "مخفی"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:174
+msgid "Login Form"
+msgstr "فرم ورود"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:175
+msgid "Comments Form"
+msgstr "فرم دیدگاه"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:176
+msgid "Registration Form"
+msgstr "فرم ثبت نام"
+
+#: src/Pmpr/Security/Recaptcha/Setting.php:177
+msgid "Reset Password Form"
+msgstr "فرم بازنشانی گذزواژه"
+
+#: src/Pmpr/Security/Setting.php:24
+msgid "Security"
+msgstr "امنیت"
+
+#~ msgid "Hide reCaptcha For"
+#~ msgstr "پنهان کرده ری‌کپچا برای"
+

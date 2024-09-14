@@ -1,0 +1,18 @@
+let recaptchaLoaded = false;
+function {{ method_name|raw }}() {
+    recaptchaLoaded = true;
+    {% if disable is not defined or not disable %}
+    if (typeof $ !== "undefined") {
+
+        $('form input:submit, form button')
+            .filter('[data-recaptcha_disabled]')
+            .removeAttr('disabled')
+            .removeAttr('data-recaptcha_disabled')
+            .each(function () {
+
+                $(this).restoreTitle();
+            });
+    }
+    {% endif %}
+}
+

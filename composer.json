@@ -1,0 +1,31 @@
+{
+  "name": "pmpr-mdl/wp-mdl-security",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Security Module for Wordpress",
+  "keywords": [
+    "wordpress",
+    "security",
+    "package"
+  ],
+  "require": {
+    "php": ">=8.2",
+    "pmpr-cmn/wp-cmn-foundation": "~1.4"
+  },
+  "prod-require": {
+    "php": "8.2",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Module\\Security\\": "src/Pmpr/Module/Security"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "tag": "1.1.29",
+  "timestamp": "1726343103"
+}
