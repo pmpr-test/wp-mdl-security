@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Security\n"
-"POT-Creation-Date: 2024-10-15 01:43+0330\n"
-"PO-Revision-Date: 2024-10-15 01:43+0330\n"
+"POT-Creation-Date: 2025-05-17 15:20+0330\n"
+"PO-Revision-Date: 2025-05-17 15:24+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: src/Pmpr/Module/Security/AbstractSecurity.php:26
 #: src/Pmpr/Module/Security/Security.php:20
-#: src/Pmpr/Module/Security/Setting/Setting.php:24
+#: src/Pmpr/Module/Security/Setting/Setting.php:28
 msgid "Security"
 msgstr "امنیت"
 
@@ -38,19 +38,183 @@ msgstr "اطلاعات دامنه خود را بررسی کنید"
 msgid "reCAPTCHA Configuration"
 msgstr "پیکربندی ریکپچا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Recaptcha.php:101
+#: src/Pmpr/Module/Security/Defender/Auth/Setting.php:23
+msgid "Panel module is enabled, and handle login url itself."
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Auth/Setting.php:27
+msgid "Login & Access"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Auth/Setting.php:29
+msgid "Control Auth Page"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Auth/Setting.php:33
+msgid "Auth Protection"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Auth/Setting.php:36
+msgid "Custom Login URL"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Auth/Setting.php:39
+#, php-format
+msgid "Custom URL to replace %s"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Auth/Setting.php:45
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:51
+msgid "API & Services"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Auth/Setting.php:48
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Auth/Setting.php:49
+msgid "Block XML-RPC attacks and remote access."
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Config/Setting.php:26
+msgid "Wordpress Settings"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Config/Setting.php:27
+msgid "Harden WordPress settings"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Config/Setting.php:31
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:59
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/Security/Defender/Config/Setting.php:34
+msgid "Disable Theme Editor"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Config/Setting.php:35
+msgid "Disable built-in editor in admin panel."
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Config/Setting.php:39
+msgid "Hide PHP Errors"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Config/Setting.php:40
+msgid "Don’t show PHP errors publicly."
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Config/Setting.php:44
+msgid "Hide Wordpress Version"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Config/Setting.php:45
+msgid "Remove WP Version from html meta."
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:28
+msgid "Files & Structure"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:29
+msgid "Protect file & WP Structure"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:33
+msgid "File Permissions"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:36
+msgid "Secure File/Directory Permissions"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:38
+#, php-format
+msgid "Set safe permissions: %s for files & %s for directories"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:44
+#, php-format
+msgid "Lock %s"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:45
+msgid "Deny access to this file."
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:54
+msgid "Block PHP in Uploads"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:55
+msgid "Prevent PHP files from execute in uploads directory."
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:59
+msgid "Disable Directory Listing"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:60
+msgid "Hide directory content in browser."
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:64
+msgid "Disable Edit Theme/Plugin Files"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/File/Setting.php:65
+msgid "Block all request to edit files in backend."
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Resource/Setting.php:24
+msgid "Resource Restrictions"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Resource/Setting.php:25
+msgid "Block Resource Abuse & Content theft"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Resource/Setting.php:29
+msgid "Suspicious Resource Access"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Resource/Setting.php:31
+msgid "Restrict Ajax Request"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Resource/Setting.php:32
+#, php-format
+msgid "Allow only logged-in users to use %s"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Resource/Setting.php:35
+msgid "Block Hotlink"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Defender/Resource/Setting.php:36
+msgid "Prevent other sites from using your media files"
+msgstr ""
+
+#: src/Pmpr/Module/Security/Setting/Setting.php:27
+#, fuzzy
+#| msgid "Security"
+msgid "Security Setting"
+msgstr "امنیت"
+
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Recaptcha.php:98
 msgid "for load Google reCAPTCHA fill the form inputs."
 msgstr "برای بارگذاری ریکپچا گوگل فیلد‌های فرم را پر کنید."
 
-#: src/Pmpr/Module/Security/Recaptcha/Recaptcha.php:101
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Recaptcha.php:98
 msgid "Please pass Google reCAPTCHA test."
 msgstr "لطفا آزمایش ری‌کپچا گوگل را انجام دهید."
 
-#: src/Pmpr/Module/Security/Recaptcha/Recaptcha.php:102
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Recaptcha.php:99
 msgid "Please wait until Google reCAPTCHA is loaded."
 msgstr "لطفا تا زمان بارگذاری ری‌کپچا گوگل صبر کنید."
 
-#: src/Pmpr/Module/Security/Recaptcha/Recaptcha.php:103
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Recaptcha.php:100
 msgid ""
 "Failed to load Google reCAPTCHA. Please check your internet connection and "
 "reload this page."
@@ -58,96 +222,106 @@ msgstr ""
 "موفق به اجرای ری‌کپچا گوگل نشدیم، لطفا ارتباط اینترنت خود را بررسی کرده و "
 "صفحه را مجدد بارگیری کنید."
 
-#: src/Pmpr/Module/Security/Recaptcha/Recaptcha.php:106
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Recaptcha.php:103
 msgid "Warning"
 msgstr "اخطار"
 
-#: src/Pmpr/Module/Security/Recaptcha/Recaptcha.php:161
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Recaptcha.php:165
 msgid "Error"
 msgstr "خطا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Recaptcha.php:162
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Recaptcha.php:166
 msgid "Click the BACK button on your browser and try again."
 msgstr "لطفا کلید برگشت مرورگر خود را بزنید و دوباره امتحان کنید."
 
-#: src/Pmpr/Module/Security/Recaptcha/Recaptcha.php:217
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Recaptcha.php:221
 msgid "Authentication failed."
 msgstr "احراز هویت شکست خورد."
 
-#: src/Pmpr/Module/Security/Recaptcha/Recaptcha.php:374
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Recaptcha.php:377
 msgid "reCaptcha"
 msgstr "ری‌کپچا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:51
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:286
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:54
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:287
 msgid "reCAPTCHA"
 msgstr "ری‌کپچا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:53
-#, fuzzy
-#| msgid "Enable reCAPTCHA"
-msgid "Configure reCAPTCHA"
-msgstr "فعال سازی ری‌کپچا"
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:56
+msgid "Google, Cloudflare"
+msgstr ""
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:56
-msgid "General"
-msgstr "عمومی"
-
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:60
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:63
 msgid "Enable reCAPTCHA"
 msgstr "فعال سازی ری‌کپچا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:64
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:67
 msgid "Site Key"
 msgstr "کلید عمومی"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:67
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:70
 #, php-format
 msgid "You can generate keys from %s."
 msgstr "شما می‌توانید کلید‌ها را از %s بسازید."
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:69
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:72
 msgid "here"
 msgstr "اینجا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:78
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:81
 msgid "Secret Key"
 msgstr "کلید خصوصی"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:84
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:87
 msgid "reCAPTCHA Version"
 msgstr "نسخه ری‌کپچا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:88
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:92
+msgid "Human/Bot Threshold Score"
+msgstr "امتیاز آستانه (انسان | ربات)"
+
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:93
+msgid "Strict"
+msgstr "سخت گیر"
+
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:94
+msgid "Balanced"
+msgstr "متعادل"
+
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:95
+msgid "Lenient"
+msgstr "آسان گیر"
+
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:99
 #, fuzzy
 #| msgid "Enable reCAPTCHA"
 msgid "Enable reCAPTCHA For"
 msgstr "فعال سازی ری‌کپچا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:93
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:104
 #, fuzzy
 #| msgid "Enable reCAPTCHA"
 msgid "Disable reCAPTCHA For"
 msgstr "فعال سازی ری‌کپچا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:98
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:109
 msgid "Hide reCAPTCHA Badge"
 msgstr "پنهان کردن نشان ری‌کپچا"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:99
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:110
 #, fuzzy
 #| msgid ""
 #| "Enable to hide reCaptcha Badge for Version 3 and Invisible reCaptcha."
 msgid "Enable to hide reCaptcha Badge for Version 3 and Invisible reCAPTCHA."
 msgstr "بری مخفی کردن نشان ری‌کپچا از گزینه را فعال کنید."
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:103
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:114
 #, fuzzy
 #| msgid "Use reCaptcha Globally"
 msgid "Use reCAPTCHA Globally"
 msgstr "به استفاده به صورت جهانی"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:104
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:115
 #, fuzzy
 #| msgid ""
 #| "Enable to use reCaptcha when Google is not accessible or blocked in your "
@@ -157,11 +331,11 @@ msgid ""
 "country."
 msgstr "اگر مشکلی با اتصال به گوگل در کشور خود دارید، این گزینه را فعال کنید."
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:108
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:119
 msgid "Disabled Submit Button"
 msgstr "غیر فعال کردن دکمه تایید"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:109
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:120
 #, fuzzy
 #| msgid ""
 #| "Enable to keep submit button disabled until user passes the reCaptcha "
@@ -173,109 +347,109 @@ msgstr ""
 "غیر فعال کردن دکمه تایید فرم، تا زمانی که کابر آزمایش ری‌کپچا را انجام دهد "
 "(برای نسخه ۲)."
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:114
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:125
 msgid "Whitelist"
 msgstr "لیست سفید"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:118
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:129
 msgid "Whitelist items"
 msgstr "آیتم‌های لیست سفید"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:121
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:132
 msgid "IP Address"
 msgstr "آدرس آی پی"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:124
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:135
 #, php-format
 msgid "Allowed format %s"
 msgstr "فرمت مجاز %s"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:132
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:143
 msgid "Whitelist Notification"
 msgstr "اعلان بودن در لیست سفید"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:136
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:147
 msgid "Something like:"
 msgstr "چیزی شبیه به:"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:137
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:148
 msgid "You are in the whitelist."
 msgstr "شما در لیست سفید قرار دارید."
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:150
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:161
 msgid "Version 2"
 msgstr "نسخه ۲"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:151
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:162
 msgid "Version 3"
 msgstr "نسخه ۳"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:152
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:163
 msgid "Invisible"
 msgstr "مخفی"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:162
-msgid "Login Form"
-msgstr "فرم ورود"
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:173
+msgid "Authentication Forms"
+msgstr "فرم‌های احراز هویت"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:163
+#: src/Pmpr/Module/Security/ThirdParty/Recaptcha/Google/Setting.php:174
 msgid "Comments Form"
 msgstr "فرم دیدگاه"
 
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:164
-msgid "Registration Form"
-msgstr "فرم ثبت نام"
-
-#: src/Pmpr/Module/Security/Recaptcha/Setting.php:165
-msgid "Reset Password Form"
-msgstr "فرم بازنشانی گذزواژه"
-
-#: src/Pmpr/Module/Security/Setting/Setting.php:23
-#, fuzzy
-#| msgid "Security"
-msgid "Security Setting"
-msgstr "امنیت"
-
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:260
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:261
 msgid "User response is missing."
 msgstr "پاسخ کاربر به آزمایش یافت نشد."
 
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:262
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:263
 msgid "Secret Key is missing."
 msgstr "کلید خصوصی یافت نشد."
 
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:265
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:266
 msgid "Secret Key is invalid."
 msgstr "کلید خصوصی معتبر نیست."
 
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:267
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:268
 msgid "Check your domain configurations"
 msgstr "اطلاعات دامنه خود را بررسی کنید"
 
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:270
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:271
 msgid "and enter it again"
 msgstr "و دوباره آن را وارد کنید"
 
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:272
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:273
 msgid "User response is invalid"
 msgstr "پاسخ کاربر معتبر نیست"
 
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:273
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:274
 msgid "You have entered an incorrect reCAPTCHA value."
 msgstr "مقدار خروجی آزمایش صحیح نیست."
 
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:274
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:275
 msgid ""
 "More than one reCAPTCHA has been found in the current form. Please remove "
 "all unnecessary reCAPTCHA fields to make it work properly."
 msgstr ""
 "بیشتر از یک آزمایش در فرم جاری یافت شد. لطفا آزمایش‌های اضافی را حذف کنید."
 
-#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:276
+#: src/Pmpr/Module/Security/Tratis/RecaptchaTrait.php:277
 #, fuzzy
 #| msgid "reCaptcha v3 test failed"
 msgid "reCAPTCHA v3 test failed"
 msgstr "آزمایش شکست خورد"
+
+#, fuzzy
+#~| msgid "Enable reCAPTCHA"
+#~ msgid "Configure reCAPTCHA"
+#~ msgstr "فعال سازی ری‌کپچا"
+
+#~ msgid "Login Form"
+#~ msgstr "فرم ورود"
+
+#~ msgid "Registration Form"
+#~ msgstr "فرم ثبت نام"
+
+#~ msgid "Reset Password Form"
+#~ msgstr "فرم بازنشانی گذزواژه"
 
 #~ msgid "Recaptcha"
 #~ msgstr "ری‌کپچا"

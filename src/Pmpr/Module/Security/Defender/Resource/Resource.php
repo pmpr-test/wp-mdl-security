@@ -4,4 +4,4 @@
     |             682fc593832f2             |
     |_______________________________________|
 */
- use Pmpr\Module\Security\Security; Security::symcgieuakksimmu();
+ namespace Pmpr\Module\Security\Defender\Resource; use Automattic\WooCommerce\Blocks\Registry\Container; class Resource extends Container { }
