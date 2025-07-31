@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             688b66f17f79d             |
+    |             688b675a3aedb             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Security; use Pmpr\Common\Foundation\FormGenerator\Field; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Common\Foundation\FormGenerator\Backend\Setting\Segment; use Pmpr\Module\Security\Tratis\RecaptchaTrait; abstract class AbstractSecurity extends Segment { use RecaptchaTrait; public function ykwqaukkycogooii() { $uuyucgkyusckoaeq = $this->caokeucsksukesyo()->wmkogisswkckmeua(); $this->ogimmkwaymekmoky($uuyucgkyusckoaeq->mkcwgaeaaweamyyg('security_module')->jyumyyugiwwiqomk(20)->gswweykyogmsyawy(__('Security', PR__MDL__SECURITY))->saemoowcasogykak(IconInterface::cokkqwmiaowmqcqs)->gucwmccyimoagwcm(__('Security module configuration', PR__MDL__SECURITY))->kwkugmqouisgkqig($uuyucgkyusckoaeq->ycgeeoiieoiakgam('recaptcha')->saemoowcasogykak(IconInterface::ysgoocymyaeiqqog)->gswweykyogmsyawy(__('reCAPTCHA Configuration', PR__MDL__SECURITY))->ewweaossowcqywaw($this->iucqycygmekqcggo()))); } public function iucqycygmekqcggo() : array { return []; } public function gusaciukmokcqeik(string $wuomgsuaoscwgsmq = Constants::iickqyckyaqcaokm) : ?Field { return $this->oguouwowueiqyocs('recaptcha', $wuomgsuaoscwgsmq); } }

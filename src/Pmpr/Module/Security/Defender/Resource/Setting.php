@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             688b66f17f79d             |
+    |             688b675a3aedb             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Security\Defender\Resource; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Module\Security\Setting\SettingSegment; class Setting extends SettingSegment { const keykeqwcqooikkik = 'restrict_ajax'; const swiyoyokqmwssqow = 'block_hotlink'; public function ykwqaukkycogooii() { $uuyucgkyusckoaeq = $this->caokeucsksukesyo()->wmkogisswkckmeua(); $this->ogimmkwaymekmoky($uuyucgkyusckoaeq->mkcwgaeaaweamyyg('resource_restrictions')->saemoowcasogykak(IconInterface::kmuciaqoiwuyagia)->gswweykyogmsyawy(__('Resource Restrictions', PR__MDL__SECURITY))->gucwmccyimoagwcm(__('Block Resource Abuse & Content theft', PR__MDL__SECURITY))->kwkugmqouisgkqig($uuyucgkyusckoaeq->ycgeeoiieoiakgam('suspicious_resource_access')->saemoowcasogykak(IconInterface::mkokucaiksciukag)->gswweykyogmsyawy(__('Suspicious Resource Access', PR__MDL__SECURITY))->mkksewyosgeumwsa($uuyucgkyusckoaeq->wcwmusaouiqaqeww(self::keykeqwcqooikkik)->gswweykyogmsyawy(__('Restrict Ajax Request', PR__MDL__SECURITY))->gucwmccyimoagwcm(sprintf(__('Allow only logged-in users to use %s', PR__MDL__SECURITY), 'admin-ajax.php')))->mkksewyosgeumwsa($uuyucgkyusckoaeq->wcwmusaouiqaqeww(self::swiyoyokqmwssqow)->gswweykyogmsyawy(__('Block Hotlink', PR__MDL__SECURITY))->gucwmccyimoagwcm(__('Prevent other sites from using your media files', PR__MDL__SECURITY))))); } }
