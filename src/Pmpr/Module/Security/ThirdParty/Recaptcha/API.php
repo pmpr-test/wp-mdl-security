@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             688b675a3aedb             |
+    |             68a63d4f7bb20             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Security\ThirdParty\Recaptcha; use Exception; use Pmpr\Common\Foundation\API\API as BaseClass; use Pmpr\Common\Foundation\Interfaces\Constants; class API extends BaseClass { public function __construct() { $this->domain = 'https://www.google.com/recaptcha/api'; $this->ueqoossgegqyosem(['secret' => null, 'response' => null]); parent::__construct(); } public function iywiwaoieigskusm($agguukmgmwmmmcow, $keccaugmemegoimu, $yeceiswwssseqgqc, array $qiouiwasaauyaaue = []) { $kuukgsmqkagwaciu = null; $iswcokucwmiosiaq = null; $occymigcemkqucuw = false; try { $this->ueqoossgegqyosem(['secret' => $agguukmgmwmmmcow, 'response' => $keccaugmemegoimu, 'remoteip' => $yeceiswwssseqgqc], true); $kuukgsmqkagwaciu = $this->get('/siteverify', $qiouiwasaauyaaue); $kuukgsmqkagwaciu = $this->qemyqseaomicaacs($kuukgsmqkagwaciu); if ($kuukgsmqkagwaciu) { $occymigcemkqucuw = true; } } catch (Exception $wgaoewqkwgomoaai) { $iswcokucwmiosiaq = $this->caokeucsksukesyo()->euekiyuksecoccus()->skauuuoqcaiseuks($wgaoewqkwgomoaai); } return $occymigcemkqucuw && $kuukgsmqkagwaciu ? $kuukgsmqkagwaciu : [Constants::ckcawaoawwioqecq => false, Constants::imkacwmiuiykyuim => $iswcokucwmiosiaq, 'error-codes' => ['general-fail']]; } }
